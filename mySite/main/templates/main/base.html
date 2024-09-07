@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>{% block title %} Strona Kostunia {% endblock %}</title>
+    </head>
+
+    <body>
+        <!-- To jest blok wielokrotnego użytku można go zmieniać w innych template -->
+        <div id="content", name="content">
+        {% block content %}
+            <h1> Default Text </h1>
+
+        {% endblock %}
+        </div>
+    </body>
+</html>
